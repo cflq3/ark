@@ -32,13 +32,21 @@
 ## 依赖
 
 celery == 3.1.19
+
 gevent == 1.0.2
+
 lxml == 3.4.4
+
 publicsuffixlist == 0.3.1
+
 pyreadline == 2.0
+
 requests == 2.7.0
+
 splinter == 0.7.3
+
 pybloomfiltermmap == 0.3.14
+
 pydot == 1.0.28
 
 建议使用virtualenv虚拟环境并通过_pip install -r requirements.txt_ 安装依赖。
@@ -56,11 +64,4 @@ pydot == 1.0.28
 
 ![图一](https://raw.githubusercontent.com/cflq3/ark/master/screenshots/ark_1.png)
 ![图二](https://raw.githubusercontent.com/cflq3/ark/master/screenshots/ark_2.png)
-
-## 参考与致谢 
-
-
-
-
-
 

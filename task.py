@@ -32,6 +32,7 @@ def sqlmap_spider(url):
     t=SqlmapAPIWrapper(x)
     return t.run()
 
+
 @celery.task
 def sqlmap_proxy(payload):
     x=payload

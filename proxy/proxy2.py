@@ -347,9 +347,10 @@ class ProxyRequestHandler(BaseHTTPRequestHandler):
 			#request = req_header_text + '\n' + str(req_body)
 			#keystr = req.path
         if req_body:
-			payload = {'url':req.path, 'data':req_body, 'cookie':req.headers.get('Cookie'), 'agent':req.headers.get('User-Agent'), 'referer':req.headers.get('Referer')}
+            # 'agent':req.headers.get('User-Agent'),
+			payload = {'url':req.path, 'data':req_body, 'cookie':req.headers.get('Cookie'),  'referer':req.headers.get('Referer')}
         else:
-			payload = {'url':req.path, 'cookie':req.headers.get('Cookie'), 'agent':req.headers.get('User-Agent'), 'referer':req.headers.get('Referer')}
+			payload = {'url':req.path, 'cookie':req.headers.get('Cookie'),  'referer':req.headers.get('Referer')}
 
         result=sqlmap_proxy.delay(payload)
 

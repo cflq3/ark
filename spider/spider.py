@@ -21,7 +21,7 @@ modified by hackerlq @ 2015.10
 TODO：
 1.添加动态取得代理功能，避免爬虫被封IP
 2.因为实测目前性能瓶颈不在爬虫本身，而在后续任务（sqlmapapi，xssscan）等，所以目前不考虑爬虫的分布式
-3.将cookie和表单提交的参数自动化发送给celery以及sqlmap
+3.目前根据sqlmap的--forms选项自动测试表单，后续将cookie和表单提交的参数自动化发送给celery以及sqlmap
 4.自动判断并填写referer
 5.爬虫爬取频率控制
 

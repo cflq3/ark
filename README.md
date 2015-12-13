@@ -1,6 +1,7 @@
-## ark-分布式sql扫描框架
+## ark-分布式扫描框架
 
-集成各种优秀开源项目一款sql注入扫描框架。
+集成各种优秀开源项目的一款扫描框架。
+目前支持sql注入扫描。
 
 参考和使用的项目：
 
@@ -28,6 +29,20 @@
 - 程序结构不明朗
 - 配置麻烦
 
+## 依赖
+
+celery == 3.1.19
+gevent == 1.0.2
+lxml == 3.4.4
+publicsuffixlist == 0.3.1
+pyreadline == 2.0
+requests == 2.7.0
+splinter == 0.7.3
+pybloomfiltermmap == 0.3.14
+pydot == 1.0.28
+
+建议使用virtualenv虚拟环境并通过_pip install -r requirements.txt_ 安装依赖。
+
 ### 使用说明
 
 - 1.安装依赖(requirements.txt)
@@ -42,6 +57,7 @@
 ![图一](https://raw.githubusercontent.com/cflq3/ark/master/screenshots/ark_1.png)
 ![图二](https://raw.githubusercontent.com/cflq3/ark/master/screenshots/ark_2.png)
 
+## 参考与致谢 
 
 
 

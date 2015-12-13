@@ -39,8 +39,8 @@
 
 ### 效果图
 
-![图一](http://7ktt4r.com1.z0.glb.clouddn.com/ark_1.png)
-![图二](http://7ktt4r.com1.z0.glb.clouddn.com/ark_2.png)
+![图一](https://raw.githubusercontent.com/cflq3/ark/master/screenshots/ark_1.png)
+![图二](https://raw.githubusercontent.com/cflq3/ark/master/screenshots/ark_2.png)
 
 
 

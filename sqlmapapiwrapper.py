@@ -113,11 +113,10 @@ class SqlmapAPIWrapper():
         while True:
 
                 if self.scan_status()=='running':
-                    time.sleep(100)
+                    time.sleep(5)
                 elif self.terminal():
                     break
-
-                if time.time()-self.start_time>300:
+                elif time.time()-self.start_time>180:
                     self.clear()
                     break
 
